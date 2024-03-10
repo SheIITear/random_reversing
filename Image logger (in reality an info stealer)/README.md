@@ -6,7 +6,7 @@ Sources: https://www.youtube.com/watch?v=IYYG61Isgh8 (taken down) -> https://meg
 So what's really inside the that piece of a python code?
 
 1. The code was obfuscated multiple times by someone.
-2. They used two different methods of obfuscation; compiling to bytecode and making the code harder to understand -> I was not able to identify the tool used for last layer, first layer: https://github.com/Blank-c/BlankOBF
+2. They used two different methods of obfuscation; compiling to bytecode and making the code harder to read -> first layer: https://github.com/Blank-c/BlankOBF, I was not able to identify the tool used for last layer.
 3. The code under its hood was in reality an info stealer built using "luna grabber" -> https://github.com/Smug246/Luna-Grabber and used a fake error to hide its intentions.
 4. The stolen data from victims would be sent to their discord webhook -> https://discord.com/api/webhooks/1212945438219698216/8Fgnm2-6EiG414pB1y2spJJdk0OOf1Qejpzn-RDhW7D33VkX_x9ef0b07b5uruzrTmzE. 
 
